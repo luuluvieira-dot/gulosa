@@ -613,3 +613,185 @@ opacity:0;
 
 
 }
+
+/* =========================
+   MOBILE FINAL
+========================= */
+
+html, body{
+
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    touch-action:none;
+
+}
+
+
+
+#message{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+
+#text{
+
+    max-width:900px;
+
+    white-space:normal;
+
+    overflow-wrap:break-word;
+
+    word-break:normal;
+
+    text-align:center;
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+    #introText{
+
+        width:90%;
+
+        font-size:18px;
+
+        letter-spacing:2px;
+
+        line-height:1.8;
+
+    }
+
+
+
+    #introText p{
+
+        margin:20px 0;
+
+    }
+
+
+
+
+    #startButton{
+
+        font-size:16px;
+
+        padding:12px 30px;
+
+        margin-top:35px;
+
+    }
+
+
+
+
+
+    #message{
+
+        top:45%;
+
+        padding:20px;
+
+    }
+
+
+
+
+
+    #text{
+
+        width:90%;
+
+        font-size:17px;
+
+        line-height:1.9;
+
+        letter-spacing:1px;
+
+        word-spacing:3px;
+
+    }
+
+
+
+
+    #player{
+
+        top:65%;
+
+    }
+
+
+
+
+    #core{
+
+        font-size:55px;
+
+    }
+
+
+
+
+    #aura{
+
+        width:120px;
+
+        height:120px;
+
+    }
+
+
+
+
+    #finalScene img{
+
+        width:85%;
+
+        max-height:55%;
+
+        object-fit:contain;
+
+    }
+
+
+
+
+    #finalPhrase{
+
+        font-size:22px;
+
+        text-align:center;
+
+        padding:15px;
+
+        line-height:1.5;
+
+    }
+
+
+
+
+    #endPhrase{
+
+        font-size:20px;
+
+    }
+
+
+}
